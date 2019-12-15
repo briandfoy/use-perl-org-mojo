@@ -1,0 +1,8 @@
+% layout 'default';
+% title 'About Use.perl.org';
+<h1><%= $author %>'s journal <%= $sid %></h1>
+
+<ul>
+<li>Author: <%= $author %></li>
+<li>Sid: <%= $sid %></li>
+</ul>
